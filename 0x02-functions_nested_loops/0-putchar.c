@@ -1,13 +1,22 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * * print_alphabet - print alphabets a-z
+ * * main - prints _putchar
+ *   
+ *  * Return: always 0
  */
-void print_alphabet(void)
+int main(void)
 {
-char letter;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(letter);
-
-_putchar('\n');
+	return (0);
 }
